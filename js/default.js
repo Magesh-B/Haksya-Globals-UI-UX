@@ -23,6 +23,43 @@ $(document).ready(function(){
       $("#login2").show();
     });
   });
+
+  $(document).ready(function(){
+    $("#adminOptionButton1").click(function(){
+      $("#adminOption2").hide();
+      $("#adminOption3").hide();
+      $("#adminOption4").hide();
+      $("#adminOption1").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#adminOptionButton2").click(function(){
+      $("#adminOption1").hide();
+      $("#adminOption3").hide();
+      $("#adminOption4").hide();
+      $("#adminOption2").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#adminOptionButton3").click(function(){
+      $("#adminOption2").hide();
+      $("#adminOption1").hide();
+      $("#adminOption4").hide();
+      $("#adminOption3").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#adminOptionButton4").click(function(){
+      $("#adminOption2").hide();
+      $("#adminOption3").hide();
+      $("#adminOption1").hide();
+      $("#adminOption4").show();
+    });
+  });
+
   
   function shopListDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");

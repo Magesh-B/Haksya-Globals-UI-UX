@@ -140,6 +140,11 @@ span.psw {
   display: none;
 }
 
+#adminOption2, #adminOption3, #adminOption4
+{
+  display: none;
+}
+
 //Drop down for shops
 .dropbtn {
   background-color: #4CAF50;
@@ -194,6 +199,22 @@ span.psw {
   }
 
 .show {display: block;}
+
+#adminOptionButton1,#adminOptionButton2,#adminOptionButton3,#adminOptionButton4
+{
+  padding: 20px 50px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#adminOptionButton1:hover,#adminOptionButton2:hover,#adminOptionButton3:hover,#adminOptionButton4:hover
+{
+  opacity: 0.8;
+}
+
+
 
 
 
