@@ -46,13 +46,21 @@ button:hover {
 
 #U
 {
-  width: 40%;
+  width: 100%;
   display: block;
   
 }
 
 
-/*.cancelbtn {
+#Ucheck
+{
+  width: 100%;
+  margin-left: 0%;
+}
+
+/*
+
+.cancelbtn {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
@@ -94,16 +102,17 @@ span.psw {
 }
 
 
-
-#login1, #login2
+/*#login1, #login2
 {
-  /*padding-left: 35%;*/
+  /*padding-left: 35%;
   align-self: center;
-  padding-top: 3%;
+  padding-top: 5%;
   vertical-align: middle;
   margin-left: 25%;
+  margin-right: 25%;
+  /*width: 100%;
 }
-
+*/
 #buttonAdmin, #buttonSalesPerson
 {
   background-color: #728572;
@@ -214,7 +223,10 @@ span.psw {
   opacity: 0.8;
 }
 
-
+#tadaa
+{
+  display: block;
+}
 
 
 
@@ -277,7 +289,7 @@ span.psw {
 }
 
 
-@media (min-width: 900px) and (max-width:1280 px)
+@media (min-width: 900px) and (max-width:1280px)
 {
   #U
   {
